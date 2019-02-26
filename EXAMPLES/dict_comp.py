@@ -3,6 +3,7 @@
 import os
 
 values = (5, 8, 17, 6, 5)
+#dictionsary comprehensions
 d1 = { v:v**2 for v in values }
 print(d1)
 print()

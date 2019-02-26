@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 from datetime import datetime
 
-
 def main():
     print(get_oldest())
     print(get_youngest())
