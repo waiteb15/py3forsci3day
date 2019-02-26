@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aad315db-b0ad-4308-b832-72da0d4472c2" name="Default" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/EXAMPLES/getenv_ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/date_delta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datetime_ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/import_pasth_exp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oldest_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oswalk_examp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/path_files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subprocess_examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/presidents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/presidents.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pres_dates.txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/pres_dates.txt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NOTEBOOKS/Data_Analysis_in_Python.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NOTEBOOKS/Data_Analysis_in_Python.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NOTEBOOKS/MatPlotLibExamples.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NOTEBOOKS/MatPlotLibExamples.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NOTEBOOKS/ipython_demo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NOTEBOOKS/ipython_demo.ipynb" afterDir="false" />
     </list>
     <ignored path="py3forsci3day.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +32,7 @@
           <entry key="csv" value="2" />
           <entry key="json" value="1" />
           <entry key="passwd" value="1" />
-          <entry key="py" value="55" />
+          <entry key="py" value="56" />
           <entry key="txt" value="9" />
         </counts>
       </usages-collector>
@@ -48,7 +40,7 @@
         <counts>
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="55" />
+          <entry key="Python" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -74,32 +66,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/date_delta.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#23#33#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pres_dates.txt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="30" />
-              <folding>
-                <marker date="1551211253450" expanded="true" signature="64:81" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datetime_ex.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -179,10 +150,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="81" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-14" />
+    <option name="y" value="433" />
     <option name="width" value="1135" />
-    <option name="height" value="984" />
+    <option name="height" value="936" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -865,13 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datetime_ex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pres_dates.txt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -882,10 +847,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/datetime_ex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/date_delta.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#23#33#0" expanded="true" />
           </folding>
