@@ -26,6 +26,8 @@ class CardDeck():
         random.shuffle(self._cards)
 
     def draw(self):
+        if len(self) == 0:
+            raise ValueError("No more cards")
         return self._cards.pop()
 
 

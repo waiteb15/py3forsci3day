@@ -13,12 +13,10 @@ class President():
             d = date(int(raw_year),int(raw_month),int(raw_day))
         else:
             d = None
-
         return d
 
-
     def _get_data(self,index):
-        with open("../DATA/presidents.txt") as pfile:
+        with open("DATA/presidents.txt") as pfile:
             for line in pfile:
                 flds = line.split(":")
                 if int(flds[0]) == int(index):
@@ -39,21 +37,26 @@ class President():
 
                     break
 
+
     @property
     def last_name(self):
         return self._lname
+
 
     @property
     def first_name(self):
         return self._fname
 
+
     @property
     def birth_date(self):
         return self._bdate
 
+
     @property
     def death_date(self):
         return self._ddate
+
 
     @property
     def birth_place(self):
@@ -75,3 +78,6 @@ class President():
     def party(self):
         return self._party
 
+if __name__ == '__main__':
+    p = President(1)
+    print(type(p.death_date))
