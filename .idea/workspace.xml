@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aad315db-b0ad-4308-b832-72da0d4472c2" name="Default" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/NOTEBOOKS/Data_Analysis_in_Python.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NOTEBOOKS/Data_Analysis_in_Python.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NOTEBOOKS/MatPlotLibExamples.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NOTEBOOKS/MatPlotLibExamples.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NOTEBOOKS/ipython_demo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NOTEBOOKS/ipython_demo.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv_examples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="py3forsci3day.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,31 +28,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="2" />
+          <entry key="csv" value="5" />
           <entry key="json" value="1" />
           <entry key="passwd" value="1" />
-          <entry key="py" value="56" />
+          <entry key="py" value="59" />
           <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="56" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Python" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="49" />
-          <entry key="py" value="13698" />
+          <entry key="py" value="13960" />
           <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="13747" />
+          <entry key="Python" value="14009" />
         </counts>
       </usages-collector>
     </session>
@@ -63,14 +62,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/date_delta.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DATA/presidents.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#23#33#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="69" lean-forward="true" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/csv_examples.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -96,8 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/EXAMPLES/pandas_broadcasting.py" />
-        <option value="$PROJECT_DIR$/EXAMPLES/pandas_simple_dataframe.py" />
         <option value="$PROJECT_DIR$/EXAMPLES/pandas_index_objects.py" />
         <option value="$PROJECT_DIR$/EXAMPLES/pandas_selecting.py" />
         <option value="$PROJECT_DIR$/EXAMPLES/pandas_drop.py" />
@@ -147,16 +150,20 @@
         <option value="$PROJECT_DIR$/datetime_ex.py" />
         <option value="$PROJECT_DIR$/pres_dates.txt.py" />
         <option value="$PROJECT_DIR$/date_delta.py" />
+        <option value="$PROJECT_DIR$/parse_bmp.py" />
+        <option value="$PROJECT_DIR$/csv_examples.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-14" />
-    <option name="y" value="433" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="122" />
+    <option name="y" value="385" />
     <option name="width" value="1135" />
     <option name="height" value="936" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -168,6 +175,17 @@
             <path>
               <item name="py3forsci3day" type="b2602c69:ProjectViewProjectNode" />
               <item name="py3sci3day" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="py3forsci3day" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py3sci3day" type="462c0819:PsiDirectoryNode" />
+              <item name="DATA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="py3forsci3day" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py3sci3day" type="462c0819:PsiDirectoryNode" />
+              <item name="DATA" type="462c0819:PsiDirectoryNode" />
+              <item name="wetprf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.date_delta">
+  <component name="RunManager" selected="Python.csv_examples">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
@@ -236,6 +254,48 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <configuration name="binary_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py3forsci3day" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binary_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="csv_examples" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py3forsci3day" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csv_examples.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="date_delta" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py3forsci3day" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -257,7 +317,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="datetime_ex" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="parse_bmp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py3forsci3day" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -269,49 +329,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datetime_ex.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="oldest_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py3forsci3day" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oldest_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="path_files" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py3forsci3day" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/path_files.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parse_bmp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -364,19 +382,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.variables_ex" />
-      <item itemvalue="Python.datetime_ex" />
-      <item itemvalue="Python.path_files" />
-      <item itemvalue="Python.oldest_file" />
       <item itemvalue="Python.pres_dates.txt" />
       <item itemvalue="Python.date_delta" />
+      <item itemvalue="Python.binary_data" />
+      <item itemvalue="Python.parse_bmp" />
+      <item itemvalue="Python.csv_examples" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.csv_examples" />
+        <item itemvalue="Python.parse_bmp" />
+        <item itemvalue="Python.binary_data" />
         <item itemvalue="Python.date_delta" />
         <item itemvalue="Python.pres_dates.txt" />
-        <item itemvalue="Python.oldest_file" />
-        <item itemvalue="Python.path_files" />
-        <item itemvalue="Python.datetime_ex" />
       </list>
     </recent_temporary>
   </component>
@@ -414,12 +432,12 @@
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18282989" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25437203" />
       <window_info id="Structure" order="1" weight="0.24956822" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46712804" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3194925" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -481,29 +499,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/variable_ex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/variables_ex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DATA/breakfast.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DATA/passwd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DATA/poe_sonnet.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/DATA/presidents.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -591,13 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DATA/presidents.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="43" column="50" lean-forward="true" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -856,11 +844,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/date_delta.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="210">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#23#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binary_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse_bmp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DATA/airport_boardings.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DATA/2013-01-28 072316.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="110" lean-forward="true" selection-start-line="16" selection-start-column="110" selection-end-line="16" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DATA/presidents.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="69" lean-forward="true" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_examples.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
