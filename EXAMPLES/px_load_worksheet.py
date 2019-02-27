@@ -10,8 +10,8 @@ def main():
 # three ways to get to a worksheet:
 
     # 1
-    print(wb.get_sheet_names(), '\n')
-    ws = wb.get_sheet_by_name('US Presidents')
+    print(wb.sheetnames, '\n')
+
     # or
     ws = wb['US Presidents']
     print(ws, '\n')

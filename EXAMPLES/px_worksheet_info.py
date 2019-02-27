@@ -17,6 +17,8 @@ def main():
     print(ws.cell(row=2, column=3).value, ws.cell(row=2, column=2).value, '\n')
     # ws.rows is all rows
     # ws.columns is all columns
+    for row in ws.rows:
+        for col in row:
     print(ws.rows[1][2].value, ws.rows[1][1].value, '\n')
     for i in range(1,6):
         print(ws.columns[1][i].value)

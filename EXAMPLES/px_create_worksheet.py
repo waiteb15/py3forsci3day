@@ -5,13 +5,10 @@ import openpyxl as px
 
 fruits = ["pomegranate","cherry","apricot","date","apple","lemon","kiwi",
 "orange","lime","watermelon","guava","papaya","fig","pear","banana",
-"tamarind","persimmon","elderberry","peach","blueberry","lychee",
- "grape" ]
+"tamarind","persimmon","elderberry","peach","blueberry","lychee", "grape" ]
 
 wb = px.Workbook()
-
 ws = wb.active
-
 ws.title = 'fruits'
 
 for i, fruit in enumerate(fruits, 1):
