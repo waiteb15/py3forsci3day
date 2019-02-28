@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 import numpy as np
+import matplotlib.pyplot as plt
+
 
 # from nested sequences
 a_nest = np.array([[1,2,3],[4,5,6],[7,8,9],[20,30,40]])
@@ -21,3 +23,18 @@ print()
 # with uninitialized values
 a_empty = np.empty([3,8])
 print(a_empty)
+
+
+a_empty[:] = np.NaN
+print(a_empty)
+
+#interval between
+r1 = np.arange(50)
+print("hello\n",r1)
+print(r1.ndim)
+
+#number of items
+r2 = np.linspace(-10, 10, 100)
+print(r2)
+plt.plot(r2)
+

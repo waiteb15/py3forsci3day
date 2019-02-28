@@ -39,3 +39,14 @@ print()
 s1 = a.sum()
 s2 = b.sum()
 print("sum of a is {0}; sum of b is {1}".format(s1,s2))
+
+a += 1000
+print(a)
+
+
+def shave(x):
+    return x * 0.9
+
+s = shave(a)
+
+print('\n',s)

@@ -20,6 +20,8 @@ print('a[i] =>', a[i])
 print()
 print('a[i].min(), a[i].max() =>', a[i].min(), a[i].max())
 print()
+
+#new memory here
 a2 = np.copy(a)
 a2[i] = 0
 print('a2 =>', a2)
