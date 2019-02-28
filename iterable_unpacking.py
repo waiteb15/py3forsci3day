@@ -1,10 +1,19 @@
 #!/usr/bin/env python
 
-Values = [1,2,4,5, 6]
+values = [1, 2, 3, 4, 5, 6]
 
-a, b, c, e, g = Values
+a, b, c, d, e, f = values  # iterable unpacking
 
-print(a, b, c, e, g)
+print(a, b, c, d, e, f)
 
-a, b, *c = Values
-print(c)
+a, b, *c = values
+print(a, b, c)
+
+a, *b, c = values
+print(a, b, c)
+
+*a, b, c = values
+print(a, b, c)
+
+# for line in my_file:
+#     f1, f2, *others = line.split()

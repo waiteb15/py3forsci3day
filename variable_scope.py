@@ -1,20 +1,27 @@
 #!/usr/bin/env python
 from sys import stdout
-#Dont do this
-def printa(*args, **kwargs): #generic function that accpets any number of arguments
-    stdout.write("haha\n")
 
+def print(*bob, **ray):
+    stdout.write("HA HA HA! ")
+    for arg in bob:
+        stdout.write(str(arg).upper() + ray.get('sep', ' '))
+    stdout.write(ray.get('end', '\n'))
 
-x = 100 # global
+x = 100  # GLOBAL
+
+len = 12
+id = 35
+max = 100
+min = 50
 
 
 def spam():
-    y= 42 # LOCAL
-    print(f"x is {x}")
-    print(f"y is {y}")
-    return y
+#    x = 5
+    y = 42  # LOCAL
+    print("x is", x, sep='/')
+    print("y is", y, end='\n')
 
 
-a = spam()
-print(a)
-printa(a)
+spam()
+print("x is", x)
+# print("y is", y)
