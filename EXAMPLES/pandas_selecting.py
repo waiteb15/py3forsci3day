@@ -41,4 +41,13 @@ print(df[['alpha','epsilon','beta']])
 print()
 
 
+print(df['b':'b'],'\n \n')
 
+
+
+print(df.head())
+print('\n',df.tail(),'\n')
+
+print(df.shape)
+
+print(df.describe())

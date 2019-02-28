@@ -37,4 +37,8 @@ print()
 print_header("Multiply column gamma by 1.5")
 df['gamma'] *= 1.5
 print(df)
-print()
+print('\n \n')
+
+
+
+

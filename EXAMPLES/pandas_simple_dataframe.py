@@ -5,7 +5,7 @@
 Created on Sun May 19 20:42:32 2013
 
 '''
-from pandas.core.frame import DataFrame
+from pandas import DataFrame
 from printheader import print_header
 
 cols = ['alpha','beta','gamma','delta','epsilon']
@@ -18,6 +18,7 @@ values = [
     [500, 510, 520, 530, 540],
     [600, 610, 620, 630, 640],
 ]
+
 print_header('cols')
 print(cols, '\n')
 
@@ -27,9 +28,20 @@ print(indices, '\n')
 print_header('values')
 print(values, '\n')
 
+
 df = DataFrame(values, index=indices, columns=cols)
 print_header('DataFrame df'),
 print(df, '\n')
 
 print_header("df['gamma']")
 print(df['gamma'])
+print_header("df['gamma' - 'epsilon']")
+print(df.loc[:,'gamma':'epsilon'])
+
+df['sum_de'] = df['delta'] + df['epsilon']
+print_header('new df')
+print(df)
+
+df['sum_de'] = df['delta'] + df['epsilon']
+print_header('new df')
+print(df)
