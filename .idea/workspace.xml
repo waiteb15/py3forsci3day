@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aad315db-b0ad-4308-b832-72da0d4472c2" name="Default" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/exercise_121.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pandas_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/energy_use_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parasites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/printheader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple_dataframe.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXAMPLES/pandas_alignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/pandas_alignment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXAMPLES/pandas_broadcasting.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/pandas_broadcasting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXAMPLES/pandas_selecting.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/pandas_selecting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXAMPLES/pandas_series.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/pandas_series.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EXAMPLES/pandas_simple_dataframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMPLES/pandas_simple_dataframe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NOTEBOOKS/SeattleCycling2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NOTEBOOKS/SeattleCycling2.ipynb" afterDir="false" />
     </list>
     <ignored path="py3forsci3day.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,34 +33,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="5" />
+          <entry key="csv" value="6" />
           <entry key="ipynb" value="1" />
           <entry key="json" value="1" />
           <entry key="passwd" value="1" />
-          <entry key="py" value="110" />
+          <entry key="py" value="121" />
           <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CSV" value="1" />
           <entry key="IPNB" value="1" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="110" />
+          <entry key="Python" value="121" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="59" />
+          <entry key="Python Console" value="83" />
           <entry key="dummy" value="1" />
-          <entry key="py" value="18534" />
+          <entry key="py" value="19836" />
           <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="18593" />
+          <entry key="Python" value="19919" />
         </counts>
       </usages-collector>
     </session>
@@ -74,75 +71,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_simple_dataframe.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#22#84#1" />
-                <element signature="e#85#124#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_alignment.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="e#22#84#1" />
-                <element signature="e#85#103#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_selecting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-              <folding>
-                <element signature="e#85#124#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_broadcasting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="e#85#104#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_drop.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-              <folding>
-                <element signature="e#85#124#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_time_slices.py">
+        <entry file="file://$PROJECT_DIR$/energy_use_plot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+            <state relative-caret-position="144">
+              <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
               <folding>
-                <element signature="e#85#104#0" expanded="true" />
+                <element signature="e#23#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,10 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/playcards.py" />
-        <option value="$PROJECT_DIR$/slicing_ex.py" />
-        <option value="$PROJECT_DIR$/iterable_unpacking.py" />
-        <option value="$PROJECT_DIR$/copyable.py" />
         <option value="$PROJECT_DIR$/tuple_example.py" />
         <option value="$PROJECT_DIR$/lamda_functions.py" />
         <option value="$PROJECT_DIR$/list_comprehensions.py" />
@@ -217,17 +148,21 @@
         <option value="$PROJECT_DIR$/pandas_ex.py" />
         <option value="$PROJECT_DIR$/EXAMPLES/pandas_series.py" />
         <option value="$PROJECT_DIR$/EXAMPLES/pandas_alignment.py" />
-        <option value="$PROJECT_DIR$/EXAMPLES/pandas_broadcasting.py" />
         <option value="$PROJECT_DIR$/EXAMPLES/pandas_simple_dataframe.py" />
         <option value="$PROJECT_DIR$/EXAMPLES/pandas_selecting.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/pandas_broadcasting.py" />
+        <option value="$PROJECT_DIR$/simple_dataframe.py" />
+        <option value="$PROJECT_DIR$/parasites.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/pandas_energy.py" />
+        <option value="$PROJECT_DIR$/energy_use_plot.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="186" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="96" />
     <option name="y" value="-16" />
     <option name="width" value="1284" />
-    <option name="height" value="782" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -248,12 +183,7 @@
             <path>
               <item name="py3forsci3day" type="b2602c69:ProjectViewProjectNode" />
               <item name="py3sci3day" type="462c0819:PsiDirectoryNode" />
-              <item name="DATA" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="py3forsci3day" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py3sci3day" type="462c0819:PsiDirectoryNode" />
-              <item name="EXAMPLES" type="462c0819:PsiDirectoryNode" />
+              <item name="ANSWERS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -271,11 +201,11 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\CV\Desktop\py3sci3day\kapl\cooling" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\CV\Desktop\py3sci3day" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\CV\Desktop\py3sci3day\kapl\cooling" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -290,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pandas_selecting">
+  <component name="RunManager" selected="Python.energy_use_plot">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
@@ -338,7 +268,7 @@
       <option name="ipnbPort" value="8888" />
       <method v="2" />
     </configuration>
-    <configuration name="pandas_alignment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="energy_use_plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py3forsci3day" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -346,11 +276,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EXAMPLES" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/pandas_alignment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/energy_use_plot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -359,7 +289,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pandas_broadcasting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pandas_energy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py3forsci3day" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -371,7 +301,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/pandas_broadcasting.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/pandas_energy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -380,7 +310,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pandas_selecting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pandas_read_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py3forsci3day" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -392,7 +322,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/pandas_selecting.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/pandas_read_csv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -401,7 +331,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pandas_simple_dataframe" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="parasites" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py3forsci3day" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -409,11 +339,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EXAMPLES" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/pandas_simple_dataframe.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parasites.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -422,7 +352,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pandas_time_slices" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="simple_dataframe" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py3forsci3day" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -430,11 +360,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EXAMPLES" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/pandas_time_slices.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/simple_dataframe.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -467,19 +397,19 @@
     <list>
       <item itemvalue="Python.variables_ex" />
       <item itemvalue="Jupyter Notebook.py3forsci3day" />
-      <item itemvalue="Python.pandas_alignment" />
-      <item itemvalue="Python.pandas_simple_dataframe" />
-      <item itemvalue="Python.pandas_selecting" />
-      <item itemvalue="Python.pandas_broadcasting" />
-      <item itemvalue="Python.pandas_time_slices" />
+      <item itemvalue="Python.simple_dataframe" />
+      <item itemvalue="Python.parasites" />
+      <item itemvalue="Python.energy_use_plot" />
+      <item itemvalue="Python.pandas_energy" />
+      <item itemvalue="Python.pandas_read_csv" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pandas_selecting" />
-        <item itemvalue="Python.pandas_time_slices" />
-        <item itemvalue="Python.pandas_broadcasting" />
-        <item itemvalue="Python.pandas_alignment" />
-        <item itemvalue="Python.pandas_simple_dataframe" />
+        <item itemvalue="Python.energy_use_plot" />
+        <item itemvalue="Python.pandas_read_csv" />
+        <item itemvalue="Python.pandas_energy" />
+        <item itemvalue="Python.parasites" />
+        <item itemvalue="Python.simple_dataframe" />
       </list>
     </recent_temporary>
   </component>
@@ -556,19 +486,19 @@
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1518283" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1518283" />
       <window_info id="Structure" order="1" weight="0.24956822" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49841017" visible="true" weight="0.48212227" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49841017" visible="true" weight="0.6412918" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298731" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298731" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.52595156" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3298731" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32872504" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.39446366" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32872504" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50158983" side_tool="true" weight="0.23529412" />
       <window_info anchor="bottom" id="Application Servers" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -619,6 +549,11 @@
           <line>2</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/EXAMPLES/pandas_energy.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -626,69 +561,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DATA/airport_boardings.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DATA/2013-01-28 072316.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="110" lean-forward="true" selection-start-line="16" selection-start-column="110" selection-end-line="16" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml_help.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csv_examples.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DATA/presidents.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="69" lean-forward="true" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binary_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pres.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pres_listcomp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pres_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pres_by_state_lab11.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -954,10 +826,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_broadcasting.py">
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_simple_dataframe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="357">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#22#84#1" />
+            <element signature="e#85#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_time_slices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#85#104#0" expanded="true" />
           </folding>
@@ -966,8 +849,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_alignment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state>
+          <caret selection-end-column="21" />
           <folding>
             <element signature="e#22#84#1" />
             <element signature="e#85#103#0" expanded="true" />
@@ -975,13 +858,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_simple_dataframe.py">
+    <entry file="file://$PROJECT_DIR$/printheader.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple_dataframe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="102">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
           <folding>
-            <element signature="e#22#84#1" />
+            <element signature="e#23#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_drop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
             <element signature="e#85#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_broadcasting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="35" />
+          <folding>
+            <element signature="e#85#104#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -996,22 +901,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_drop.py">
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_read_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="-58">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/internals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="4114" selection-start-line="4114" selection-end-line="4114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="889" selection-start-line="889" selection-end-line="889" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parasites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <element signature="e#85#124#0" expanded="true" />
+            <element signature="e#23#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_time_slices.py">
+    <entry file="file://$PROJECT_DIR$/DATA/energy_use_quad.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_energy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+        <state relative-caret-position="316">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/energy_use_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
           <folding>
-            <element signature="e#85#104#0" expanded="true" />
+            <element signature="e#23#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
